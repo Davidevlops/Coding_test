@@ -20,6 +20,3 @@ function duplicateEncode(word) {
   return finalAnswer;
 }
 console.log(duplicateEncode("edueu"));
-
-
-
