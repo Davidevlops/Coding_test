@@ -20,3 +20,18 @@ function duplicateEncode(word) {
   return finalAnswer;
 }
 console.log(duplicateEncode("edueu"));
+
+
+function findErrors(nums) {
+  const duplicates = nums.filter((num, index) => nums.indexOf(num) !== index);
+  const missingNumbers = nums.reduce((acc, num, index) => {
+    if (!nums.includes(index)) {
+      acc.push(index);
+    }
+    return acc;
+  }, []);
+  return [...duplicates, ...missingNumbers];
+}
+
+
+console.log(findErrors([1, 2, 3, 3, 5]));
