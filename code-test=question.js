@@ -33,4 +33,4 @@ function solution(picture) {
 //   }
   
 
-console.log(findErrors([1, 2, 3, 3, 5]));
+// console.log(findErrors([1, 2, 3, 3, 5]));
