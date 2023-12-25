@@ -26,3 +26,4 @@ return finalAnswer;
 "console.log(duplicateEncode("edueu"));" 
 "console.log(duplicateEncode("edueu"));" 
 "console.log(duplicateEncode("edueu"));" 
+newString 
