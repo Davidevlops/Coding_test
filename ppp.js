@@ -28,3 +28,4 @@ return finalAnswer;
 "console.log(duplicateEncode("edueu"));" 
 newString 
 newString 
+newString 
