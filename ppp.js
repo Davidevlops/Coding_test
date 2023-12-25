@@ -34,3 +34,4 @@ newString
 newString 
 newString 
 newString 
+"// console.log(duplicateEncode(""edueu""));" 
