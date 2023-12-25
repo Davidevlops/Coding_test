@@ -19,3 +19,4 @@ finalAnswer += countKeeper[wordToLowerCase[i]] > 1 ? ")" : "(";
 return finalAnswer;
 }
 "console.log(duplicateEncode("edueu"));" 
+"console.log(duplicateEncode("edueu"));" 
